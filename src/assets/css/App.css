@@ -1,0 +1,40 @@
+body {
+  background-color: var(--color-background);
+  font-family: 'Arial', sans-serif;
+  color: var(--color-text-secondary);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1{
+  margin: 0;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.button {
+  padding: 1rem 1.5rem;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: var(--color-secondary);
+}
