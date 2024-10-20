@@ -59,7 +59,7 @@ export const Form = () => {
                     </div>
 
                     <div className="form-group">
-                        <label className="label">Date</label>
+                        <label className="label">DUI</label>
                         <input
                             className="input"
                             type="text"
